@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checkout - Shruti E-commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <h1>🧾 Checkout</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<main class="form-page">
+  <form id="checkout-form" onsubmit="return placeOrder(event)">
+    <label for="name">Naam</label>
+    <input id="name" type="text" required>
+    <label for="address">Pata</label>
+    <textarea id="address" required></textarea>
+    <label for="phone">Phone</label>
+    <input id="phone" type="tel" required>
+    <button class="btn" type="submit">Place Order</button>
+  </form>
+  <p id="order-msg" class="order-msg"></p>
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 Shruti E-commerce App</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

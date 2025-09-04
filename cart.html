@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cart - Shruti E-commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <h1>🛒 Cart</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="checkout.html">Checkout</a>
+  </nav>
+</header>
+
+<main>
+  <section id="cart-list" class="cart-list">
+    <!-- Cart items will appear here -->
+  </section>
+  <div class="cart-summary">
+    <p id="cart-total">Total: ₹0</p>
+    <a href="checkout.html" class="btn">Proceed to Checkout</a>
+    <button onclick="clearCart()" class="btn btn-danger">Clear Cart</button>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 Shruti E-commerce App</p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', displayCart);
+</script>
+</body>
+</html>

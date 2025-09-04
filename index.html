@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shruti E-commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <h1>🛒 Shruti E-commerce Store</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<main>
+  <section class="products">
+    <article class="product">
+      <img src="images/product1.png" alt="Product 1">
+      <h3>Jaipuri Kurti</h3>
+      <p class="price">₹699</p>
+      <button onclick="addToCart('Jaipuri Kurti',699)">Add to Cart</button>
+    </article>
+    <article class="product">
+      <img src="images/product2.png" alt="Product 2">
+      <h3>Handmade Coaster Set</h3>
+      <p class="price">₹259</p>
+      <button onclick="addToCart('Coaster Set',259)">Add to Cart</button>
+    </article>
+    <article class="product">
+      <img src="images/product3.png" alt="Product 3">
+      <h3>Brass Diya Set</h3>
+      <p class="price">₹499</p>
+      <button onclick="addToCart('Brass Diya Set',499)">Add to Cart</button>
+    </article>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 Shruti E-commerce App</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
